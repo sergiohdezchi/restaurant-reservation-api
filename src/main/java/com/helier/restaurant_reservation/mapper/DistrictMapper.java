@@ -1,5 +1,7 @@
 package com.helier.restaurant_reservation.mapper;
 
+import java.util.List;
+
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
@@ -16,5 +18,11 @@ public class DistrictMapper {
 
     public DistrictResponseDTO toResponseDTO(District district) {
         return modelMapper.map(district, DistrictResponseDTO.class);
+    }
+
+    public List<DistrictResponseDTO> toResponseDTOList(List<District> districts) {
+        return districts.stream()
+                .map(this::toResponseDTO)
+                .toList();
     }
 }
