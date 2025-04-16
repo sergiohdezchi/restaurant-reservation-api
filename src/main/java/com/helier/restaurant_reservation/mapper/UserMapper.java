@@ -4,6 +4,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
 import com.helier.restaurant_reservation.domain.entity.User;
+import com.helier.restaurant_reservation.dto.request.SignupRequestDTO;
 import com.helier.restaurant_reservation.dto.response.AuthResponseDTO;
 import com.helier.restaurant_reservation.dto.response.UserProfileResponseDTO;
 
@@ -23,5 +24,9 @@ public class UserMapper {
         authResponseDTO.setToken(token);
         authResponseDTO.setUser(userProfile);
         return authResponseDTO;
+    }
+
+    public User toUser(SignupRequestDTO signupRequestDTO) {
+        return modelMapper.map(signupRequestDTO, User.class);
     }
 }
