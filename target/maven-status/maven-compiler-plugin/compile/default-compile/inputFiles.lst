@@ -12,6 +12,7 @@
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/domain/entity/Reservation.java
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/domain/entity/Restaurant.java
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/domain/entity/User.java
+/home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/domain/enums/APIError.java
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/domain/enums/ReservationStatus.java
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/domain/enums/Role.java
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/dto/paypal/Amount.java
@@ -30,6 +31,7 @@
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/dto/request/SignupRequestDTO.java
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/dto/response/AuthResponseDTO.java
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/dto/response/DistrictResponseDTO.java
+/home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/dto/response/ErrorDTO.java
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/dto/response/PaypalCaptureResponse.java
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/dto/response/PaypalOrderResponse.java
 /home/hdez/Documentos/spring-reservation-app/restaurant_reservation/src/main/java/com/helier/restaurant_reservation/dto/response/ReservationResponseDTO.java
